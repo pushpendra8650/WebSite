@@ -16,7 +16,7 @@ const Contact = () => {
         const formData = new FormData(event.target);
         const jsonFormData = Object.fromEntries(formData.entries());
 
-        const res = await fetch("https://educity-website-server.onrender.com/submit", {
+        const res = await fetch("https://website-backend-za4c.onrender.com/submit", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
